@@ -9,6 +9,9 @@ function getnumber(a) {
     inputval.value += a
     // console.log('input',inputval.value)
     // const operator=inputval.value[1
+    
+    // console.log('input',inputval.value)
+    // const operator=inputval.value[1
 }
     function getAnswer(){
 
