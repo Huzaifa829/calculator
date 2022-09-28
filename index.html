@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="calculator">
+            <div id="calculator1">
+
+                <input type="text" id="input">
+    
+                <div  class="number">
+                    <button onclick="mclear()" id="n1">C</button>
+                    <button onclick="getnumber('*')" id="n1">X</button>
+                    <button onclick="getnumber('%')" id="n1">%</button>
+                    <button onclick="getnumber('/')" id="n1">/</button>
+                    <button onclick="getnumber('9')" id="n1">9</button>
+                    <button onclick="getnumber('8')" id="n1">8</button>
+                    <button onclick="getnumber('7')" id="n1">7</button>
+                    <button onclick="getnumber('-')" id="n1">-</button>
+                    <button onclick="getnumber('6')" id="n1">6</button>
+                    <button onclick="getnumber('5')" id="n1">5</button>
+                    <button onclick="getnumber('4')" id="n1">4</button>
+                    <button onclick="getnumber('+')" id="n1">+</button>
+                    <button onclick="getnumber('3')" id="n1">3</button>
+                    <button onclick="getnumber('2')" id="n1">2</button>
+                    <button onclick="getnumber('1')" id="n1">1</button>
+                    <button onclick="getAnswer()" id="n1">=</button>
+                    <button onclick="getnumber('.')" id="n1" class="zero">.</button>
+                    <button onclick="getnumber('0')" id="n1" class="zero">0</button>
+                    
+                </div>
+
+            </div>
+        </div>
+        <button onclick="start()">Start</button>
+        <button onclick="stop()">Stop</button>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
